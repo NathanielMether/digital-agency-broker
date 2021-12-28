@@ -1,0 +1,360 @@
+body {
+  margin: 0;
+}
+
+.section-1 {
+  height: 579px;
+  background-image: url("/assets/header-consult.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.section-2 {
+  height: 573px;
+  overflow: hidden;
+}
+
+.section-3 {
+  background: #3B6194;
+  text-align: center;
+  overflow: hidden;
+}
+
+.section-4 {
+  background: #E7E7E7;;
+  text-align: center;
+  overflow: hidden;
+}
+
+.section-5 {
+  height: 580px;
+  background-image: url("/assets/marketing-consulting.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.section-1-left-side {
+  width: 554px;
+  display: inline-block;
+  margin-left: 7%;
+}
+
+.section-1-header {
+  text-align: center;
+  width: 563px;
+  margin-left: 10px;
+  margin-top: 166px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 36px;  
+}
+
+.section-1-text {
+  text-align: center;
+  width: 554px;
+  margin-top: 37px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.CTA-button {
+  background: #F5484F;
+  width: 444px;
+  height: 67px;
+  border-radius: 7px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color:  #FFFFFF;
+}
+
+.first-CTA {
+  margin-top: 49px;
+  margin-left: 46px;
+}
+
+.centered-content {
+  top: 28%;
+  position: relative;
+}
+
+.nathaniel-img {
+  margin-left: 40%;
+  margin-top: -430px;
+}
+
+.section-2-header {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  color: #203256;
+  text-align: center;
+}
+
+.section-2-text {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  width: 710px;
+  margin: auto;
+}
+
+.blue-text {
+color: #203256
+}
+
+.handshake {
+color:white;
+height: 140px;
+width: 171px;
+}  
+
+.shield {
+color:white;
+height: 140px;
+width: 140px;
+}  
+
+.strategy {
+color:white;
+height: 140px;
+width: 140px;
+}  
+
+.col-4 {
+  width: 337px;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  margin: 2.5%;
+}
+
+.section-3-header {
+  font-size: 30px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.section-3-text {
+  font-size: 24px;
+  font-family: 'PT Sans', sans-serif;
+  text-align: justify;
+}
+
+.section-4-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  color: #203256;
+  margin-top: 57px;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  margin-left: 10%;
+}
+
+.step-number {
+  font-family: Franklin Gothic Medium;
+  font-weight: 500;
+  font-size: 100px;
+  color: #203256;
+  margin-right: 73px;
+}
+
+.all-step-text {
+  text-align: left;
+  width: 80%;
+}
+
+.step-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #203256;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.step-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 25px;
+  color: #203256;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.blue-image-cover {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  background: rgba(32, 50, 86, 0.7);
+} 
+
+.white-image-cover {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  background: rgba(223, 233, 252, 0.7);
+} 
+
+.section-5-header {
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 110%;
+  width: 425px;
+  color: white;
+  margin-top: 160px;
+  margin-left: 51%;
+}
+
+.last-CTA {
+  margin-top: 0px;
+  margin-left: 49%;
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important; 
+}
+
+/* Clean up on smaller size */
+@media only screen and (max-width: 1198px) {
+  .section-1-left-side {
+    margin-left: 3%;
+  }
+
+  .nathaniel-img {
+    margin-left: 42%;
+  }
+
+  .section-5-header {
+    margin-left: 38%;
+  }
+
+  .last-CTA {
+    margin-left: 32%;
+  }
+}
+
+/* Fix background glitch */
+@media only screen and (max-width: 1160px) {
+  .section-5 {
+    height: 580px;
+    background-size: auto;
+  } 
+}
+
+/* Mobile view */
+@media only screen and (max-width: 480px) {
+  .section-1 {
+    text-align: center;
+    height: unset;
+    padding-bottom: 60px;
+  }
+
+  .nathaniel-img {
+    display: none;
+  }
+
+  .section-1-header {
+    margin-top: 77px;
+    margin-left: unset;
+    width: 284px;
+  }
+
+  .section-1-left-side {
+    text-align: center;
+    width: unset;
+  }
+
+  .section-1-text {
+    width: 285px;
+    margin-left: unset;
+  }
+
+  .first-CTA {
+    margin-top: 10px;
+  }
+
+  .CTA-button {
+    width: 237px;
+    height: 108px;
+    margin-left: unset;
+    display: inline-block;
+  }
+
+  .centered-content {
+    top: 23%;
+  }
+
+  .section-2 {
+    height: 630px;
+  }
+
+  .dots {
+    margin-top: 0;
+  }
+
+  .section-2-text {
+    width: 320px;
+    line-height: 30px;
+  }
+
+  .section-3 {
+    padding-bottom: 20px;
+  }
+
+  .col-4 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .section-4-header {
+    font-size: 48px;
+  }
+
+  .steps {
+    margin-left: 25px;
+  }
+
+  .step-number {
+    font-size: 64px;
+    margin-right: 24px;
+  }
+
+  .step-headline {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+
+  .step-text {
+    font-size: 20px;
+  }
+
+  .blue-image-cover {
+    text-align: center;
+  }
+
+  .section-5-header {
+    font-size: 36px;
+    margin-left: 19px;
+    display: inline-block;
+    text-align: left;
+    width: 253px;
+    margin-top: 130px;
+    margin-bottom: 42px;
+  }
+}
